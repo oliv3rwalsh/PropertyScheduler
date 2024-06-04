@@ -56,9 +56,12 @@ p{
 }
 .menu{
     width: 30vw;
-    background-color: #606060;
+    background-color: #cfcfcf;
     border-radius: 10px;
     min-height: 200px;
+    font-family: "seitu-variable",sans-serif;
+    color: #121212;
+    padding-bottom: 60px;
 }
 .calendarcontainer{
     width: 60vw;
@@ -84,7 +87,7 @@ p{
 }
 .calendarrow{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
     margin-bottom: 20px;
 }
@@ -99,6 +102,7 @@ p{
     justify-content: center;
     align-items: center;
     color: #121212;
+    margin: 0 25px;
 }
 .monthheader{
     min-height: 50px;
@@ -110,4 +114,64 @@ p{
     justify-content: right;
     align-items: center;
     color: #606060;
+}
+.active{
+    background-color: #6F2DA8;
+}
+.subheader{
+    font-variation-settings: 'wght' 600;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.headline{
+    font-variation-settings: 'wght' 400;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.left{
+    margin-right: 0px; 
+    margin-left: 25px;
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0;
+    width: 75px;
+}
+.middle{
+    margin: 0;
+    border-radius: 0;
+    width: 100px;
+}
+.right{
+    margin-right: 25px; 
+    margin-left: 0px;
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+    width: 75px;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "seitu-variable",sans-serif;
+    color: #121212;
+}
+.label{
+    font-variation-settings: 'wght' 400;
+    font-size: 14px;
+    background-color: #6F2DA8;
+    padding: 3px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+.name{
+    margin-left: 10px;
+    font-variation-settings: 'wght' 400;
+    font-size: 14px;
+}
+.reservationsummary{
+    margin-top: 40px;
 }
