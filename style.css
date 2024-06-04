@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.headerbar{
+    width: 100%;
+    font-family: "seitu-variable",sans-serif;
+    position: fixed;
+    top: 0;
+}
+.banner{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 30px;
+    background-color: #121212;
+}
+.header{
+    height: 75px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 30px;
+}
+.headertext{
+    font-variation-settings: 'wght' 600;
+    font-size: 30px;
+    color: white;
+}
+.banneritem{
+    font-family: "seitu-variable",sans-serif;
+    color: white;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: 14px;
+}
+.banneritemtitle{
+    margin-right: 10px;
+    font-variation-settings: 'wght' 400;
+}
+.banneritemtext{
+    font-variation-settings: 'wght' 600;
+}
+.pagecontent{
+    padding: 155px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.menu{
+    width: 30vw;
+    background-color: #606060;
+    border-radius: 10px;
+    min-height: 200px;
+}
+.calendarcontainer{
+    width: 60vw;
+    padding-top: 20px;
+}
+.calendarheader{
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 600;
+    color: #121212;
+    font-size: 30px;
+}
+.calendar{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.monthcontainer{
+    width: 10%;
+}
+.dayview{
+    width: 85%;
+}
+.calendarrow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.calendarday{
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #121212;
+}
+.monthheader{
+    min-height: 50px;
+    margin-bottom: 20px;
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 300;
+    font-size: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #606060;
+}
